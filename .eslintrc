@@ -1,0 +1,25 @@
+{
+  "extends": [
+    "react-app",
+    "react-app/jest",
+    "airbnb",
+
+  ],
+  "rules": {
+    "react/prop-types": 0,
+    "react/jsx-props-no-spreading": 0,
+    "jsx-quotes": [
+      1,
+      "prefer-single"
+    ],
+    "jsx-a11y/anchor-is-valid": 0,
+    "no-case-declarations": 0,
+    "no-underscore-dangle": 0,
+    "linebreak-style": 0,
+    "import/no-named-default": 0,
+    "import/prefer-default-export": 0
+  },
+  "plugins": [
+    "only-warn"
+  ]
+}
